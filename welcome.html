@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome - Photo Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .welcome-container {
+      background: rgba(255,255,255,0.12);
+      backdrop-filter: blur(8px);
+      padding: 40px 30px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 4px 40px rgba(0,0,0,0.4);
+    }
+    .welcome-title {
+      color: #fff;
+      font-weight: 800;
+      font-size: 3rem;
+      letter-spacing: 3px;
+      margin-bottom: 24px;
+      text-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .welcome-btn {
+      font-size: 1.3rem;
+      padding: 12px 38px;
+      border-radius: 24px;
+      background: #ffd700;
+      color: #133357;
+      border: none;
+      font-weight: 700;
+      box-shadow: 0 2px 14px rgba(0,0,0,0.16);
+      transition: 0.17s;
+    }
+    .welcome-btn:hover {
+      background: #ffa500;
+      color: #fff;
+      transform: translateY(-2px) scale(1.04);
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <div class="welcome-title">Welcome to the Gallery</div>
+    <p class="lead text-light">Discover beautiful images with a modern, interactive experience.<br>Click the button to continue!</p>
+    <a href="gallery.html" class="btn welcome-btn mt-4">Enter Gallery</a>
+  </div>
+</body>
+</html>
